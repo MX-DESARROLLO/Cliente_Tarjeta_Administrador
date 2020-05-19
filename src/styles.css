@@ -1,1 +1,48 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    background: url('https://ccmontserrat.com/images/logos/mini_muni.jpg') center center no-repeat fixed;
+    min-height:100%;
+    /*-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;*/
+    background-size: 30%;
+    
+}
+
+#item_txt{
+    width: 20%;
+  }
+  #generarCodigo{
+    width: 10%;
+    background-color: #5AA1E3;
+    color: #fff;
+  }
+  #descargarCodigo{
+    width: 10%;
+    background-color: #3CB371;
+    color: #fff;
+    display: none;
+    text-align: center;
+    border: #eee solid 2px;
+    text-decoration: none;
+  }
+  #codigoQR{
+    width: 256px;
+    height: 256px;
+    margin-top: 25px;
+    border: 2px solid #eee;
+  }
+
+  @media print {
+    @page { margin: 0; }
+    body { margin: 1.6cm; }
+  }
+
+  th {
+    border: 1px solid black;
+  }
+
+  .aclass > img {
+    width: 200px;
+  }
+

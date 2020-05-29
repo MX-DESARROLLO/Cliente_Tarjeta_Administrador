@@ -38,7 +38,7 @@ export class AppComponent implements OnInit{
           
           //this.dato = 'http://localhost:3000/api/tarjetas/consulta/' + base64data;
         
-          this.dato = 'http://localhost:3000/api/tarjetas/consulta/' + btoa(pais);
+          this.dato = 'https://tarjeta.munimixco.gob.gt/consulta/' + btoa(pais);
         },
         err => console.log(err)
       )

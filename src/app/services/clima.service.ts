@@ -11,7 +11,7 @@ export class ClimaService {
   
 
   constructor(private http: HttpClient) { 
-    this.URI = `http://localhost:3000/api/tarjetas/`
+    this.URI = `https://api.munimixco.gob.gt/emixtra/api/tarjetas/`
   }
 
   getClima(country: string) {
